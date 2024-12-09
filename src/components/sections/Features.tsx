@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, ClipboardList, GraduationCap, LineChart, Users, Wallet } from 'lucide-react';
+import { Calendar, ClipboardList, GraduationCap, LineChart, Users, Wallet, BellRing } from 'lucide-react';
 
 const features = [
   {
@@ -23,14 +23,14 @@ const features = [
     description: 'Get detailed insights with customizable reports and data visualization.'
   },
   {
-    icon: Users,
-    title: 'Parent Portal',
+    icon: BellRing,
+    title: 'Real-Time Updates',
     description: 'Keep parents informed with real-time updates on attendance, grades, and events.'
   },
   {
     icon: GraduationCap,
-    title: 'Learning Management',
-    description: 'Facilitate online learning with integrated tools and resources.'
+    title: 'Student Portal',
+    description: 'Provide students with easy access to their attendance, grades, and exam schedules.'
   }
 ];
 

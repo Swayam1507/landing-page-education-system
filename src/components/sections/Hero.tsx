@@ -21,17 +21,19 @@ export function Hero() {
               Streamline administrative tasks, enhance communication, and improve learning outcomes with our comprehensive school management system.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button 
+              <a 
                 className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition flex items-center justify-center"
-                onClick={() => scrollToSection('contact')}
+                href='https://education-system-uxns.onrender.com'
+                target='_blank'
+                // onClick={() => scrollToSection('contact')}
               >
-                Book a Demo <ArrowRight className="ml-2 h-5 w-5" />
-              </button>
+                Try for Free  <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
               <button 
                 className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 transition"
-                onClick={() => scrollToSection('features')}
+                onClick={() => scrollToSection('pricing')}
               >
-                View Features
+                View Pricing
               </button>
             </div>
           </div>

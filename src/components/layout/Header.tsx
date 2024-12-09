@@ -49,9 +49,9 @@ export function Header() {
             </a>
           </div>
 
-          <button onClick={() => scrollToSection("contact")} className="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-            Book Demo
-          </button>
+          <a href="https://education-system-uxns.onrender.com" target="_blank" className="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+            Try for Free
+          </a>
 
           <button
             className="md:hidden"
@@ -90,9 +90,9 @@ export function Header() {
             >
               Contact
             </a>
-            <button onClick={() => scrollToSection("contact")} className="w-full bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-              Book Demo
-            </button>
+            <a href="https://education-system-uxns.onrender.com" target="_blank" className="w-full bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+              Try for Free
+            </a>
           </div>
         )}
       </nav>
